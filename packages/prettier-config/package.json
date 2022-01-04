@@ -1,6 +1,6 @@
 {
   "name": "@soulsbros/prettier-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A comprehensive Prettier configuration",
   "author": "soulsbros",
   "license": "GPL-3.0-only",
