@@ -1,27 +1,27 @@
-{
-  "root": true,
-  "extends": [
+module.exports = {
+  root: true,
+  extends: [
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:react-hooks/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": ["react", "prettier"],
-  "env": {
+  plugins: ["react", "prettier"],
+  env: {
     "browser": true,
     "node": true,
     "es2021": true
   },
-  "parserOptions": {
+  parserOptions: {
     "sourceType": "module"
   },
-  "settings": {
+  settings: {
     "react": {
       "version": "detect"
     }
   },
-  "rules": {
+  rules: {
     "prettier/prettier": "warn",
     "no-console": ["warn", { "allow": ["warn", "error", "info"] }],
     "react/prop-types": 0
