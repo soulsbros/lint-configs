@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/soulsbros/eslint-prettier-configs.git"
   },
-  "devDependencies": {
+  "dependencies": {
     "prettier": "^2.5.1"
   }
 }
