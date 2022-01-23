@@ -7,11 +7,11 @@ module.exports = {
     "plugin:react-hooks/recommended",
     "plugin:prettier/recommended"
   ],
-  plugins: ["react", "prettier"],
+  plugins: ["react", "prettier", "jsx-a11y", "react-hooks"],
   env: {
     "browser": true,
     "node": true,
-    "es2021": true
+    "es2021": true,
   },
   parserOptions: {
     "sourceType": "module"
@@ -24,6 +24,6 @@ module.exports = {
   rules: {
     "prettier/prettier": "warn",
     "no-console": ["warn", { "allow": ["warn", "error", "info"] }],
-    "react/prop-types": 0
+    "react/prop-types": 0,
   }
 }
